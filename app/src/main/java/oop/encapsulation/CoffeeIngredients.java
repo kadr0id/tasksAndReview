@@ -1,8 +1,5 @@
 package oop.encapsulation;
 
-/**
- * Created by ykandrin on 18-Jan-18.
- */
 
 public class CoffeeIngredients{
     private int coffeeBeans;
