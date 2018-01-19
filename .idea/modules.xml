@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tasksAndReview.iml" filepath="$PROJECT_DIR$/tasksAndReview.iml" />
+      <module fileurl="file://D:\Android\TestWallpapers3\tasksAndReview\app\app.iml" filepath="D:\Android\TestWallpapers3\tasksAndReview\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tasksAndReview.iml" filepath="$PROJECT_DIR$/.idea/tasksAndReview.iml" />
+      <module fileurl="file://D:\Android\TestWallpapers3\tasksAndReview\tasksAndReview.iml" filepath="D:\Android\TestWallpapers3\tasksAndReview\tasksAndReview.iml" />
     </modules>
   </component>
 </project>
