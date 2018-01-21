@@ -2,15 +2,15 @@ package oop.comparing;
 
 public class Cup {
 
-    private String whoIsCup;
+    private int whoIsCup;
 
-    public Cup (String whoIsCup){
+    public Cup (int whoIsCup){
         this.whoIsCup = whoIsCup;
-        result();
+
     }
 
     public boolean equals(Object o){
-        if(o.equals(this))
+        if(o == (this))
             return true;
         if (o == null)
             return false;
@@ -19,7 +19,7 @@ public class Cup {
             return false;
         else {
             Cup x = (Cup)o;
-            if(x.whoIsCup.equals(this.whoIsCup))
+            if(x.whoIsCup == (this.whoIsCup))
                 return true;
             else
                 return false;
@@ -28,10 +28,10 @@ public class Cup {
 
     }
 
-    public void result(){
+    public static void result(){
 
-        Cup cup1 = new Cup("my");
-        Cup cup2 = new Cup("your");
+        Cup cup1 = new Cup(1);
+        Cup cup2 = new Cup(1);
         if (cup1.equals(cup2))
             System.out.println("It`s same cup");
         else
