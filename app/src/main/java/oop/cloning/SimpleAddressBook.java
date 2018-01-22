@@ -4,10 +4,11 @@ package oop.cloning;
 
 public class SimpleAddressBook implements Cloneable{
     private String name;
-    private String adress;
+    private String address;
 
-    public SimpleAddressBook(String name, String adress) throws CloneNotSupportedException {
-
+    public SimpleAddressBook(String name, String address) throws CloneNotSupportedException {
+        this.name = name;
+        this.address = address;
     }
 
     public void setName(String name) {
@@ -18,12 +19,12 @@ public class SimpleAddressBook implements Cloneable{
         return name;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
     public SimpleAddressBook clone() throws CloneNotSupportedException{
