@@ -2,15 +2,15 @@ package oop.inheritance;
 
 //same TV brand, but different model
 public class TV {
-   private String model;
-   private String brand;
+    private String model;
+    private String brand;
 
 
     public String getBrand() {
         return brand;
     }
 
-    public TV( String brand){
+    public TV(String brand) {
 
         this.brand = brand;
     }

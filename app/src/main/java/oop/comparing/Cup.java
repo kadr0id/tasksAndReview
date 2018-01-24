@@ -4,31 +4,40 @@ public class Cup {
 
     private int whoIsCup;
 
-    public Cup (int whoIsCup){
+    public Cup(int whoIsCup) {
         this.whoIsCup = whoIsCup;
 
     }
 
-    public boolean equals(Object o){
-        if(o == (this))
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + whoIsCup;
+
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == (this))
             return true;
         if (o == null)
             return false;
 
-        if(!(getClass() == o.getClass()))
+        if (!(getClass() == o.getClass()))
             return false;
         else {
-            Cup x = (Cup)o;
-            if(x.whoIsCup == (this.whoIsCup))
+            Cup x = (Cup) o;
+            if (x.whoIsCup == (this.whoIsCup))
                 return true;
             else
                 return false;
-
         }
 
     }
 
-    public static void result(){
+    public static void result() {
 
         Cup cup1 = new Cup(1);
         Cup cup2 = new Cup(1);

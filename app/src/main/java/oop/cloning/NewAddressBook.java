@@ -10,8 +10,9 @@ public class NewAddressBook {
         this.name = name;
         this.address = address;
     }
+
     public NewAddressBook(NewAddressBook newAddressBook) {
-        this(newAddressBook.getName(), newAddressBook.getAdress());
+        this(newAddressBook.getName(), newAddressBook.getAddress());
     }
 
     public void setName(String name) {
@@ -22,11 +23,11 @@ public class NewAddressBook {
         return name;
     }
 
-    public void setAdress(String adress) {
+    public void setAddress(String adress) {
         this.address = adress;
     }
 
-    public String getAdress() {
+    public String getAddress() {
         return address;
     }
 

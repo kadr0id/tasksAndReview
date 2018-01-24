@@ -2,5 +2,6 @@ package oop.solid.openClosed;
 
 
 
-public class MobilePhone {
+public interface MobilePhone {
+    void saveSMS(String somrText);
 }
