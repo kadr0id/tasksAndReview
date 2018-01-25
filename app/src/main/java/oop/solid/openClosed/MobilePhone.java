@@ -1,7 +1,9 @@
 package oop.solid.openClosed;
 
 
-
-public interface MobilePhone {
-    void saveSMS(String somrText);
+public class MobilePhone extends Bluetooth{
+    public boolean isBluetoothON(){
+        System.out.println("Bluetooth ON");
+        return true;
+    }
 }
