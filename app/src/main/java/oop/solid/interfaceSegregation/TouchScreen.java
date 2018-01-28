@@ -1,5 +1,5 @@
 package oop.solid.interfaceSegregation;
 
 
-public class MobilePhone {
+public interface TouchScreen {
 }

@@ -1,7 +1,16 @@
 package oop.solid.openClosed;
 
 
+public class Bluetooth implements DeviceManager {
 
-public interface Bluetooth {
-     boolean isBluetoothON();
+
+    @Override
+    public void saveData() {
+
+    }
+
+    @Override
+    public void pushData() {
+
+    }
 }

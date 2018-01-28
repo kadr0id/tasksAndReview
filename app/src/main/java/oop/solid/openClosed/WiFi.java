@@ -1,10 +1,15 @@
 package oop.solid.openClosed;
 
-/**
- * Created by ykandrin on 26-Jan-18.
- */
 
-public interface WiFi {
-    boolean isWiFiON();
+public class WiFi implements DeviceManager {
 
+    @Override
+    public void saveData() {
+
+    }
+
+    @Override
+    public void pushData() {
+
+    }
 }

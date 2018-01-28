@@ -1,13 +1,21 @@
 package oop.solid.openClosed;
 
 
-public class MobilePhone implements Bluetooth, WiFi{
-    public boolean isBluetoothON(){
-        System.out.println("Bluetooth ON");
-        return true;
+public class MobilePhone {
+
+  private DeviceManager manager;
+
+    public MobilePhone(DeviceManager manager) {
+        this.manager = manager;
     }
-    public boolean isWiFiON(){
-        System.out.println("Wi-Fi ON");
-        return true;
+
+    public void pushSomeData() {
+        manager.pushData();
     }
+
+    public void saveSomeData() {
+        manager.saveData();
+    }
+
+
 }
