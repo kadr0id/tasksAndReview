@@ -7,11 +7,12 @@ public class CatchAnotherExceptions {
 
         try {
             result = getValue(5, 7);
-        } catch (IllegalArgumentException arg){
+        } catch (IllegalArgumentException arg) {
             throw new AnotherExceprion(arg);
         }
         System.out.println(result);
     }
+
     public static int getValue(int one, int two) {
         if (one > two) throw new IllegalArgumentException(one + " is bigger then " + two);
         return one;

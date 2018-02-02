@@ -10,6 +10,7 @@ public class ArrayListExample {
        fruits.add("pear");
        fruits.add(1, "plum");
        ArrayList<String> addFruit = new ArrayList<>(2);
+       addFruit.size();
        addFruit.add("apple");
        addFruit.add("cherry");
        fruits.addAll(addFruit);
