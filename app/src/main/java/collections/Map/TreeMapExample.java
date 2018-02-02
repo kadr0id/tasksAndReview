@@ -1,4 +1,4 @@
-package Collections.Map;
+package collections.Map;
 
 
 import java.util.TreeMap;
