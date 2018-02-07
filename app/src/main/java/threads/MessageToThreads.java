@@ -28,5 +28,6 @@ public class MessageToThreads extends Thread {
         MessageToThreads secondThread = new MessageToThreads("second");
         firstThread.start();
         secondThread.start();
+        System.out.println(comeBack);
     }
 }
